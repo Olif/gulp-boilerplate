@@ -1,0 +1,23 @@
+# Ignore build folder
+build/
+
+#Ingore compile folder
+bin/
+
+# Ignore deprecated files
+files/* 
+
+# Ignore node modules
+node_modules/*
+
+# Ignore vendor files
+vendor/*
+
+# Ignore VS files
+*.webinfo
+
+#Ignore swap files
+*.swp
+
+#Ignore mac folder file
+.DS_Store

@@ -1,0 +1,22 @@
+{
+    "paths": {
+        "compileDir": "bin",
+        "sourceDir": "src",
+        "vendorDir": "vendor",
+        "buildDir": "build"
+    },
+    "dev": {
+        "appConfig": {
+            "apiBaseUrl": "http://localhost:8080/api",
+            "debug": true
+        }
+    },
+    "release": {
+        "appConfig": {
+            "apiBaseUrl": "http://app.ngenic.se/api",
+            "debug": false
+        }
+    }
+}
+
+
